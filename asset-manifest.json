@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Movie-web-Api-with-ReactJS-/static/css/main.1655dda7.chunk.css",
+    "main.js": "/Movie-web-Api-with-ReactJS-/static/js/main.752ee352.chunk.js",
+    "main.js.map": "/Movie-web-Api-with-ReactJS-/static/js/main.752ee352.chunk.js.map",
+    "runtime-main.js": "/Movie-web-Api-with-ReactJS-/static/js/runtime-main.b852dc4c.js",
+    "runtime-main.js.map": "/Movie-web-Api-with-ReactJS-/static/js/runtime-main.b852dc4c.js.map",
+    "static/css/2.2894c9e2.chunk.css": "/Movie-web-Api-with-ReactJS-/static/css/2.2894c9e2.chunk.css",
+    "static/js/2.b43087e3.chunk.js": "/Movie-web-Api-with-ReactJS-/static/js/2.b43087e3.chunk.js",
+    "static/js/2.b43087e3.chunk.js.map": "/Movie-web-Api-with-ReactJS-/static/js/2.b43087e3.chunk.js.map",
+    "index.html": "/Movie-web-Api-with-ReactJS-/index.html",
+    "static/css/2.2894c9e2.chunk.css.map": "/Movie-web-Api-with-ReactJS-/static/css/2.2894c9e2.chunk.css.map",
+    "static/css/main.1655dda7.chunk.css.map": "/Movie-web-Api-with-ReactJS-/static/css/main.1655dda7.chunk.css.map",
+    "static/js/2.b43087e3.chunk.js.LICENSE.txt": "/Movie-web-Api-with-ReactJS-/static/js/2.b43087e3.chunk.js.LICENSE.txt",
+    "static/media/boxicons.min.css": "/Movie-web-Api-with-ReactJS-/static/media/boxicons.cbd149c5.ttf",
+    "static/media/footer-bg.67e95f05.jpg": "/Movie-web-Api-with-ReactJS-/static/media/footer-bg.67e95f05.jpg",
+    "static/media/tmovie.67797e94.png": "/Movie-web-Api-with-ReactJS-/static/media/tmovie.67797e94.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b852dc4c.js",
+    "static/css/2.2894c9e2.chunk.css",
+    "static/js/2.b43087e3.chunk.js",
+    "static/css/main.1655dda7.chunk.css",
+    "static/js/main.752ee352.chunk.js"
+  ]
+}
