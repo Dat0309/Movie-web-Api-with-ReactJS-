@@ -6,6 +6,10 @@ import Home from '../pages/Home';
 import Catalog from '../pages/Catalog';
 import Detail from '../pages/detail/Detail';
 
+/**
+ * Lớp Cấu hình các đường dẫn của component
+ * @returns 
+ */
 export default function Routes() {
     return (
         <Switch>
@@ -23,7 +27,7 @@ export default function Routes() {
             />
             <Route
                 path='/'
-                exact
+                exact // đường dẫn chính xác
                 component={Home}
             />
         </Switch>

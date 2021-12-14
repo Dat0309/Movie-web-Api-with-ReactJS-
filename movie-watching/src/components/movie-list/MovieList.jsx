@@ -4,16 +4,19 @@ import PropTypes from 'prop-types';
 import './movie-list.scss';
 import { SwiperSlide, Swiper} from 'swiper/react';
 
-import { Link } from 'react-router-dom';
-import Button from '../button/Button';
+// import { Link } from 'react-router-dom';
+// import Button from '../button/Button';
 import tmdbApi, {category} from '../../api/tmdbApi';
-import apiConfig from '../../api/apiConfig';
+// import apiConfig from '../../api/apiConfig';
 import MovieCard from '../movie-card/MovieCard';
 
 const MovieList = props => {
 
     const [items, setItems] = useState([]);
 
+    /**
+     * Lấy danh sách phim
+     */
     useEffect(() => {
         const getList = async () => {
             let response = null;

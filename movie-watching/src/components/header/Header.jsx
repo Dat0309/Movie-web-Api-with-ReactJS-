@@ -18,6 +18,10 @@ const headerNav = [
     {
         display: 'TV Series',
         path: '/tv'
+    },
+    {
+        display: 'SignIn',
+        path: '/'
     }
 ];
 
@@ -28,6 +32,9 @@ const Header = () => {
 
     const active = headerNav.findIndex(e => e.path === pathname);
 
+    /**
+     * Lăn chuột xuống một khoảng thì thay đổi navbar
+     */
     useEffect(() => {
         const shrinkHeader = () => {
             if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
