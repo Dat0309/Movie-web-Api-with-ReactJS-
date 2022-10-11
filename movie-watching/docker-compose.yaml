@@ -1,0 +1,15 @@
+version: '3'
+services:
+  frontend:
+    stdin_open: true
+    tty: true
+    container_name: frontend-react-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: npm start
+    ports:
+      - 3001:3000
+    volumes:
+      - ./:/app
+      - /app/node_modules
